@@ -22,7 +22,7 @@ set(FETCHCONTENT_UPDATES_DISCONNECTED OFF)
 
 # By default, assume user will not obtain optional-lite via third party mechanism.
 option(DISTRIBUTE_OPTIONAL_LITE "Distribute optional lite with the Nakama client." ON)
-option(BUILD_SHARED_LIBS "Build a shared library." ON)
+option(BUILD_SHARED_LIBS "Build a shared library." OFF)
 option(FORCE_DLL_IMPORT_EXPORT "Force exporting and importing of symbols regardless of the platform." OFF)
 option(BUILD_APPLE_FRAMEWORK "Build frameworks instead of .dylib files for Apple." ON)
 

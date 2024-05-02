@@ -22,7 +22,7 @@
     #ifdef NAKAMA_SHARED_LIBRARY_EXPORTS
         #define NAKAMA_API __declspec(dllexport)
     #else
-        #define NAKAMA_API __declspec(dllimport)
+        #define NAKAMA_API
     #endif
 #elif __GNUC__ >= 4
     #ifdef NAKAMA_SHARED_LIBRARY_EXPORTS
